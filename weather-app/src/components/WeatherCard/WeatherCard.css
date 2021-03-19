@@ -1,0 +1,45 @@
+.weather-board{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.weather-card{
+    width: 200px;
+    cursor: pointer;
+    padding: 0;
+    margin: 0 1px;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    padding: 0 20px;
+    border-radius: 5px;
+    background-color: #eeeff1;
+}
+
+.active{
+    width: 200px;
+    cursor: pointer;
+    padding: 0;
+    margin: 0 1px;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    padding: 0 20px;
+    border-radius: 5px;
+    background-color: #fafafa;
+}
+
+.weather-card h3{
+    color: #3fd2e6;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+
+.weather-card span{
+    color: #a0a0a0;
+}

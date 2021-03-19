@@ -1,0 +1,28 @@
+.hourly{
+    margin: 50px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.card{
+    padding: 20px 0px;
+    width: 350px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card p{
+    margin: 0;
+}
+
+.card span{
+    color: #7e7e7e;
+}
+
+.inv{
+    visibility: hidden;
+}
